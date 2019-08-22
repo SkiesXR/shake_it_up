@@ -6,7 +6,9 @@
 # Overview
 <strong>Shake it Up!</strong> is a responsive single-page web app that offers users an encyclopedia of popular cocktails along with easy-to-follow step by step instructions. Have some ingredients but don't know what to make? No problem! Our app features a "Build Your Own Cocktail" mode... start with a base spirit (e.g. Whiskey, Vodka, Gin) and our app will intelligently recommend compatible ingredients and potential cocktails. <strong>Shake it Up!</strong> is your perfect bar-counter companion for an evening out on the town or a fun time enjoying drinks with friends.
 
+<p align="center">
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/GIFs/discover.gif"></img>
+</p>
 
 <a href="http://shake-it-up-aa.herokuapp.com" target="_blank"><strong>Live Demo</strong></a>
 
@@ -42,11 +44,14 @@
 # Lazy Fetch
 Our <strong>fetch thunk</strong> actions check the redux state, so that they only make the http request if the data is not already fully loaded. They also accept an optional callback to be executed when the data is fetched.
 
+<p align="center">
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/Code%20Snippets/siu_snip_1a.png?raw=true"></img>
+</p>
 
 # Build Your Own Cocktail (BYOC)
-
+<p align="center">
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/GIFs/byoc.gif"></img>
+</p>
 
 Search progress persists when users refresh the page. When users press back button or types additional compatible ingredients in the URL, BYOC correctly sets state according to the list of ingredients at the moment and accurately displays potential drinks.
 
@@ -58,7 +63,9 @@ setStateFromURL() sets local state based on the URL wildcard. Since base spirit 
 
 # Live Search
 
+<p align="center">
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/GIFs/live_search.gif"></img>
+</p>
 
 Upon rendering drinks or ingredients index page, all drinks / ingredients are preloaded to allow live search. Users can search for drinks / ingredients instantaneously without making unnecessary AJAX requests to the back-end. The search is also case insensitive.
 
