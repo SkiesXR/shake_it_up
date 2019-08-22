@@ -62,9 +62,7 @@ setStateFromURL() sets local state based on the URL wildcard. Since base spirit 
 
 # Live Search
 
-<p align="center">
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/GIFs/live_search.gif"></img>
-</p>
 
 Upon rendering drinks or ingredients index page, all drinks / ingredients are preloaded to allow live search. Users can search for drinks / ingredients instantaneously without making unnecessary AJAX requests to the back-end. The search is also case insensitive.
 
