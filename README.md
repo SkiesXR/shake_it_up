@@ -44,14 +44,13 @@
 # Lazy Fetch
 Our <strong>fetch thunk</strong> actions check the redux state, so that they only make the http request if the data is not already fully loaded. They also accept an optional callback to be executed when the data is fetched.
 
-<p align="center">
+
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/Code%20Snippets/siu_snip_1a.png?raw=true"></img>
-</p>
+
 
 # Build Your Own Cocktail (BYOC)
-<p align="center">
+
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/GIFs/byoc.gif"></img>
-</p>
 
 Search progress persists when users refresh the page. When users press back button or types additional compatible ingredients in the URL, BYOC correctly sets state according to the list of ingredients at the moment and accurately displays potential drinks.
 
