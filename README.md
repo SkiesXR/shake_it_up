@@ -54,7 +54,7 @@ Our <strong>fetch thunk</strong> actions check the redux state, so that they onl
 
 Search progress persists when users refresh the page. When users press back button or types additional compatible ingredients in the URL, BYOC correctly sets state according to the list of ingredients at the moment and accurately displays potential drinks.
 
-Local state (base, nonBaseIngredients, drinks, compatibleIngredients) is set by <strong>setStateFromURL()</strong>. The 'base' array stores objects corresponding to the various types of the base spirit selected by the user. After selecting the base spirit, the drinks array is set to be all cocktails containing any of the types of the given base spirit, and the compatible ingredients array is initialized as all ingredients of these drinks except for the ones in base.	The user then may select additional ingredients which refines the array of drinks and correspondingly reduces the list of compatible ingredients. 
+Local state (base, nonBaseIngredients, drinks, compatibleIngredients) is set by <strong>`setStateFromURL()`</strong>. The 'base' array stores objects corresponding to the various types of the base spirit selected by the user. After selecting the base spirit, the drinks array is set to be all cocktails containing any of the types of the given base spirit, and the compatible ingredients array is initialized as all ingredients of these drinks except for the ones in base.	The user then may select additional ingredients which refines the array of drinks and correspondingly reduces the list of compatible ingredients. 
 
 <img src="https://github.com/BenjaminT88/shake_it_up/blob/master/frontend/src/assets/Code%20Snippets/siu_snip_2a.png?raw=true"></img>
 
